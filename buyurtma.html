@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>NOVORA | Buyurtma berish</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+
+            <a href="index.html" class="logo">NOVORA</a>
+
+            <ul class="menu">
+                <li><a href="index.html">Bosh sahifa</a></li>
+                <li><a href="xizmatlar.html">Xizmatlar</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="about.html">Biz haqimizda</a></li>
+                <li><a href="contact.html">Aloqa</a></li>
+                <li><a href="buyurtma.html">Buyurtma berish</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="page-banner">
+
+            <h1>Buyurtma berish</h1>
+
+            <p>
+                O‘zingizga kerakli xizmatni tanlang
+                va loyiha haqida ma’lumot qoldiring.
+            </p>
+
+        </section>
+
+        <section class="price-section">
+
+            <h2>Xizmatlar ro‘yxati</h2>
+
+            <p>
+                Quyidagi jadvalda NOVORA tomonidan
+                taklif etiladigan asosiy xizmatlar keltirilgan.
+            </p>
+
+            <table class="service-table">
+
+                <thead>
+                    <tr>
+                        <th>№</th>
+                        <th>Xizmat nomi</th>
+                        <th>Tavsifi</th>
+                        <th>Bajarish muddati</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Veb-sayt yaratish</td>
+                        <td>Biznes uchun sayt ishlab chiqish</td>
+                        <td>5–10 kun</td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Grafik dizayn</td>
+                        <td>Logo va reklama materiallari</td>
+                        <td>2–4 kun</td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>SMM xizmatlari</td>
+                        <td>Ijtimoiy tarmoqlar uchun kontent</td>
+                        <td>Kelishuv asosida</td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Video montaj</td>
+                        <td>Video tahrirlash va tayyorlash</td>
+                        <td>2–5 kun</td>
+                    </tr>
+
+                    <tr>
+                        <td>5</td>
+                        <td>Brending</td>
+                        <td>Brendning vizual uslubini yaratish</td>
+                        <td>3–7 kun</td>
+                    </tr>
+
+                </tbody>
+
+            </table>
+
+            <p class="table-note">
+                Izoh: muddatlar loyiha hajmi va murakkabligiga qarab o‘zgarishi mumkin.
+            </p>
+
+        </section>
+
+        <section class="order-section">
+            <center>
+
+            <h2>Buyurtma ma’lumotlari</h2>
+
+            <p>
+                Formani to‘ldirib, o‘z loyihangiz haqida
+                batafsil ma’lumot bering.
+            </p>
+        </center>
+            <form action="#" method="post" enctype="multipart/form-data">
+
+                <label for="fullname">F.I.Sh.</label>
+                <input type="text" id="fullname" name="fullname"
+                       placeholder="Ism va familiyangiz" required>
+
+                <label for="order-email">Elektron pochta</label>
+                <input type="email" id="order-email" name="email"
+                       placeholder="example@gmail.com" required>
+
+                <label for="order-phone">Telefon raqami</label>
+                <input type="tel" id="order-phone" name="phone"
+                       placeholder="+998 90 123 45 67" required>
+
+                <label for="service">Kerakli xizmatni tanlang</label>
+                <select id="service" name="service" required>
+
+                    <option value="">Xizmatni tanlang</option>
+                    <option value="website">Veb-sayt yaratish</option>
+                    <option value="design">Grafik dizayn</option>
+                    <option value="smm">SMM xizmatlari</option>
+                    <option value="video">Video montaj</option>
+                    <option value="branding">Brending</option>
+                    <option value="marketing">Raqamli marketing</option>
+
+                </select>
+
+                <label for="description">Loyiha haqida ma’lumot</label>
+                <textarea id="description" name="description"
+                          rows="5"
+                          placeholder="Loyihangiz haqida yozing..."
+                          required></textarea>
+
+                <label for="budget">Taxminiy budjet</label>
+                <select id="budget" name="budget">
+
+                    <option value="">Budjetni tanlang</option>
+                    <option value="low">1 mln so‘mgacha</option>
+                    <option value="medium">1–3 mln so‘m</option>
+                    <option value="high">3–5 mln so‘m</option>
+                    <option value="other">Kelishuv asosida</option>
+
+                </select>
+
+                <label for="file">Loyihaga tegishli fayl</label>
+                <input type="file" id="file" name="file">
+
+                <label class="agreement">
+                    <input type="checkbox" name="agreement" required>
+                    Kiritilgan ma’lumotlar to‘g‘riligini tasdiqlayman.
+                </label>
+
+                <button type="submit" class="main-btn">
+                    Buyurtmani yuborish
+                </button>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <h3>NOVORA</h3>
+
+        <p>Kreativ va texnologik agentlik</p>
+
+        <p>© 2026 NOVORA. Barcha huquqlar himoyalangan.</p>
+
+    </footer>
+
+</body>
+</html>
